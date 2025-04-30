@@ -1,0 +1,18 @@
+embed.owo-embed{
+    width: 50%;
+}
+
+input.nsfw-checkbox{
+    margin-left: 1em;
+}
+
+.safe{
+    color: green;
+}
+.questionable{
+    color: yellow;
+    background-color: grey;
+}
+.explicit{
+    color: red;
+}
