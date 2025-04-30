@@ -4,3 +4,12 @@ div.api-fetcher{
     border: 1px solid black;
     background-color: cornflowerblue;
 }
+
+.coordslink{
+    color: inherit;
+    text-decoration: underline;
+}
+
+.coordslink:hover{
+    color: white;
+}

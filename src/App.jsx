@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div hidden>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -20,13 +20,9 @@ function App() {
         </a>
       </div>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button hidden onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <hr/>
-        <Owo />
-        <hr />
-        <ApiFetcher />
         <hr />
         <ISSTracker />
         <p>
